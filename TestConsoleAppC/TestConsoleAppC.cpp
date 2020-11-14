@@ -5,11 +5,21 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    int age;
-    std::cout << "How Old Are You? \n";
-    std::cin >> age;
-    std::cout << "You are " << age << " years old.\n";
+    {
+        std::cout << "Hello World!\n";
+        int age;
+        int height;
+
+        std::cout << "How old are you? \n";
+        std::cin >> age;
+
+        std::cout << "How tall are you? \n";
+        std::cin >> height;
+
+        std::cout << "You are " << age << " years old.\n";
+        std::cout << "You are " << height << " tall. \n";
+        return 0;
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
